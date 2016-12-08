@@ -233,9 +233,9 @@ function train()
 							  -- estimate df/dW
 							  local df_do = criterion:backward(output_nn, targets[i])
 							  df_do_nn = linear_nn:backward(output_conv, df_do)
-							  bank1:backward(inputs1[i], df_do_nn)
-							  bank2:backward(inputs2[i], df_do_nn)
-							  bank3:backward(inputs3[i], df_do_nn)
+							  bank1:backward(inputs1[i], df_do_nn[{1}])
+							  bank2:backward(inputs2[i], df_do_nn[{2}])
+							  bank3:backward(inputs3[i], df_do_nn[{3}])
 
 		                      -- update mse
 							  mean_square_error = mean_square_error + err
