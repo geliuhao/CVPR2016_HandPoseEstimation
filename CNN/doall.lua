@@ -52,7 +52,7 @@ torch.manualSeed(opt.seed)
 ----------------------------------------------------------------------
 print '==> executing all'
 
-dofile '1_data_MSRA14.lua'
+dofile '1_data.lua'
 dofile '2_model_continue.lua'
 dofile '3_loss.lua'
 dofile '4_train_revise.lua'
