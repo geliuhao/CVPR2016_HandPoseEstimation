@@ -1,9 +1,12 @@
 # CVPR2016_HandPoseEstimation
 
 An implementation of the Multi-View CNNs based 3D Hand Pose Estimation Method.
-
-    Robust 3D Hand Pose Estimation in Single Depth Images: from Single-View CNN to Multi-View CNNs
+ 
+ 
+    Robust 3D Hand Pose Estimation in Single Depth Images: from Single-View CNN to Multi-View CNNs
+    
     Liuhao Ge, Hui Liang, Junsong Yuan and Daniel Thalmann.
+    
     Proceedings of IEEE International Conference on Computer Vision & Pattern Recognition (CVPR'16).
     Las Vegas, NV, USA, June 2016.
 	
