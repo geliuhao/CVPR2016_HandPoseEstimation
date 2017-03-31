@@ -14,8 +14,10 @@ Please cite this paper if you use our released code.
 ## Database
 
 Download the MSRA Hand Gesture database at:
-	
-	http://research.microsoft.com/en-us/um/people/yichenw/handpose/cvpr15_MSRAHandGestureDB.zip
+
+~http://research.microsoft.com/en-us/um/people/yichenw/handpose/cvpr15_MSRAHandGestureDB.zip~
+
+https://www.dropbox.com/s/bmx2w0zbnyghtp7/cvpr15_MSRAHandGestureDB.zip?dl=0
 
 Unzip it and put folders "P0"~"P9" in the "cvpr15_MSRAHandGestureDB" directory.
 
